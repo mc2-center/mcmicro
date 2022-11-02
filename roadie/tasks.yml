@@ -10,3 +10,7 @@ pyramidize:
   description: generate a pyramid for the input image
   output: '*.ome.tif'
   params: []
+miniature:
+  description: generate a thumbnail based on colouring pixels in a 2D embedding.
+  output: '*_miniature.jpeg'
+  params: []
